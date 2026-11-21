@@ -1,0 +1,1546 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HUAR — Café de especialidad</title>
+  <meta name="description" content="HUAR. Café de especialidad, infusiones y cocina de masa madre en Barreal, Calingasta, San Juan. Un momento fuera de tiempo.">
+  <meta name="theme-color" content="#F5EFE6">
+  <meta property="og:title" content="HUAR — Café de especialidad">
+  <meta property="og:description" content="Café de especialidad, orígenes y un momento fuera de tiempo en Barreal, Calingasta.">
+  <meta property="og:type" content="website">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Crect%20width='100'%20height='100'%20fill='%233E2B1F'/%3E%3Ctext%20x='50'%20y='72'%20font-family='Georgia,serif'%20font-size='58'%20font-weight='400'%20fill='%23F5EFE6'%20text-anchor='middle'%3EH%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="js/tailwind-config.js"></script>
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- ============================================================
+       DATOS ESTRUCTURADOS · GOOGLE BUSINESS PROFILE
+       ✏️ Completá la calle y numeración cuando estén confirmadas.
+       La guía de configuración está en datos-google-business.md
+  ============================================================ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "@id": "https://huar.cafe/#negocio",
+    "name": "Huar Café",
+    "alternateName": "HUAR — Café de especialidad",
+    "description": "Café de especialidad, filtrados y algo más, infusiones y cocina de masa madre. Un momento fuera de tiempo en Barreal, Calingasta, San Juan.",
+    "url": "https://huar.cafe/",
+    "telephone": "+54 9 264 501-9966",
+    "priceRange": "$$",
+    "servesCuisine": ["Café de especialidad", "Infusiones", "Cocina de masa madre"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. Pres. Roca 1798 Sur",
+      "addressLocality": "Barreal",
+      "addressRegion": "San Juan",
+      "postalCode": "J5405",
+      "addressCountry": "AR"
+    },
+    "areaServed": "Barreal, Calingasta, San Juan",
+    "sameAs": ["https://share.google/ovuv0O8QkVIcOoIcg"],
+    "hasMap": "https://maps.app.goo.gl/dD7L8mMFo3WHFBP7A",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Wednesday", "Thursday", "Friday"],
+        "opens": "17:00",
+        "closes": "21:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Saturday", "Sunday"],
+        "opens": "09:00",
+        "closes": "13:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Saturday", "Sunday"],
+        "opens": "16:30",
+        "closes": "22:00"
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="bg-ivory font-sans text-earth antialiased">
+
+  <a href="#inicio" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[120] focus:bg-chocolate focus:px-5 focus:py-3 focus:text-[10px] focus:font-semibold focus:uppercase focus:tracking-[0.2em] focus:text-ivory">
+    Saltar al contenido
+  </a>
+
+  <div class="grain-overlay" aria-hidden="true"></div>
+
+  <!-- ============================================================
+       HEADER
+  ============================================================ -->
+  <header id="site-header" class="fixed inset-x-0 top-0 z-50 bg-ivory text-earth">
+    <div class="mx-auto flex h-20 max-w-[1440px] items-center justify-between px-5 md:h-24 md:px-10">
+
+      <a href="#inicio" class="group flex items-center gap-3 leading-none" aria-label="HUAR — Inicio">
+        <img src="imagenes/logo.jpg" alt="HUAR Logo" width="1254" height="1254"
+          class="h-12 w-auto select-none object-contain mix-blend-multiply transition-opacity duration-300 group-hover:opacity-90 md:h-16">
+        <span class="hidden text-[8px] font-medium uppercase leading-[1.5] tracking-[0.28em] text-earth/60 2xl:block">
+          Café de especialidad
+        </span>
+      </a>
+
+      <nav class="absolute left-1/2 hidden w-max -translate-x-1/2 items-center gap-6 xl:flex" aria-label="Navegación principal">
+        <a href="#metodos" class="nav-link" data-nav>Café de especialidad</a>
+        <a href="#infusiones" class="nav-link" data-nav>Infusiones</a>
+        <a href="#bebidas" class="nav-link" data-nav>Bebidas frescas</a>
+        <a href="#origenes" class="nav-link" data-nav>Nuestros cafés de origen</a>
+        <a href="#comida" class="nav-link" data-nav>Acompañamientos</a>
+        <a href="#platos" class="nav-link" data-nav>Platos</a>
+      </nav>
+
+      <div class="flex items-center gap-5">
+        <a href="#gift-cards" data-nav class="nav-link hidden lg:inline-block">
+          Gift Cards
+        </a>
+        <a href="#visitanos" class="hidden bg-chocolate px-5 py-2.5 text-[9px] font-medium uppercase tracking-[0.24em] text-ivory transition-colors duration-300 hover:bg-earth md:inline-block">
+          Pedir
+        </a>
+
+        <button id="menu-toggle" type="button"
+          class="relative flex h-11 w-11 items-center justify-center border border-brass/50 text-earth transition-colors duration-300 hover:bg-chocolate hover:text-ivory xl:hidden"
+          aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menú">
+          <span id="icon-open" class="flex w-5 flex-col gap-[5px]">
+            <span class="block h-px w-full bg-current"></span>
+            <span class="block h-px w-full bg-current"></span>
+          </span>
+          <span id="icon-close" class="hidden text-2xl font-light leading-none">×</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       MENÚ MÓVIL
+  ============================================================ -->
+  <div id="mobile-menu" class="mobile-menu fixed inset-0 z-40 bg-sand text-earth">
+    <img src="imagenes/huar-emblem-gold.png" alt="" width="800" height="569" loading="lazy" decoding="async"
+      class="pointer-events-none absolute -bottom-16 -right-12 w-64 opacity-[0.1] sm:w-80" aria-hidden="true">
+    <div class="relative z-10 flex h-full flex-col justify-between overflow-y-auto px-5 pb-10 pt-28 md:px-10">
+      <nav class="flex flex-col" aria-label="Navegación móvil">
+        <a href="#metodos" class="mobile-link group flex items-baseline gap-4 border-b border-brass/30 py-4">
+          <span class="text-[9px] tracking-[0.2em] text-earth/55">01</span>
+          <span class="text-[clamp(1.45rem,5.5vw,2.1rem)] font-normal leading-[1.1] tracking-[-0.01em] transition-all duration-300 group-hover:translate-x-2 group-hover:text-brass">Café de especialidad</span>
+        </a>
+        <a href="#infusiones" class="mobile-link group flex items-baseline gap-4 border-b border-brass/30 py-4">
+          <span class="text-[9px] tracking-[0.2em] text-earth/55">02</span>
+          <span class="text-[clamp(1.45rem,5.5vw,2.1rem)] font-normal leading-[1.1] tracking-[-0.01em] transition-all duration-300 group-hover:translate-x-2 group-hover:text-brass">Infusiones</span>
+        </a>
+        <a href="#bebidas" class="mobile-link group flex items-baseline gap-4 border-b border-brass/30 py-4">
+          <span class="text-[9px] tracking-[0.2em] text-earth/55">03</span>
+          <span class="text-[clamp(1.45rem,5.5vw,2.1rem)] font-normal leading-[1.1] tracking-[-0.01em] transition-all duration-300 group-hover:translate-x-2 group-hover:text-brass">Bebidas frescas</span>
+        </a>
+        <a href="#origenes" class="mobile-link group flex items-baseline gap-4 border-b border-brass/30 py-4">
+          <span class="text-[9px] tracking-[0.2em] text-earth/55">04</span>
+          <span class="text-[clamp(1.45rem,5.5vw,2.1rem)] font-normal leading-[1.1] tracking-[-0.01em] transition-all duration-300 group-hover:translate-x-2 group-hover:text-brass">Nuestros cafés de origen</span>
+        </a>
+        <a href="#comida" class="mobile-link group flex items-baseline gap-4 border-b border-brass/30 py-4">
+          <span class="text-[9px] tracking-[0.2em] text-earth/55">05</span>
+          <span class="text-[clamp(1.45rem,5.5vw,2.1rem)] font-normal leading-[1.1] tracking-[-0.01em] transition-all duration-300 group-hover:translate-x-2 group-hover:text-brass">Acompañamientos</span>
+        </a>
+        <a href="#platos" class="mobile-link group flex items-baseline gap-4 border-b border-brass/30 py-4">
+          <span class="text-[9px] tracking-[0.2em] text-earth/55">06</span>
+          <span class="text-[clamp(1.45rem,5.5vw,2.1rem)] font-normal leading-[1.1] tracking-[-0.01em] transition-all duration-300 group-hover:translate-x-2 group-hover:text-brass">Platos</span>
+        </a>
+        <a href="#gift-cards" class="mobile-link group flex items-baseline gap-4 border-b border-brass/30 py-4">
+          <span class="text-[9px] tracking-[0.2em] text-earth/55">07</span>
+          <span class="text-[clamp(1.45rem,5.5vw,2.1rem)] font-normal leading-[1.1] tracking-[-0.01em] transition-all duration-300 group-hover:translate-x-2 group-hover:text-brass">Gift Cards</span>
+        </a>
+      </nav>
+
+      <div class="mt-12 grid gap-6 text-[9px] uppercase tracking-[0.22em] text-earth/65 sm:grid-cols-2">
+        <div>
+          <p class="text-earth/50">Dirección</p>
+          <p class="mt-2 leading-relaxed">Av. Pres. Roca 1798 Sur<br>La Casona de Yolanda, Local N.º 5<br>J5405 Barreal, San Juan</p>
+        </div>
+        <div>
+          <p class="text-earth/50">Horarios</p>
+          <p class="mt-2 leading-relaxed">Miércoles a viernes · 17:00 a 21:00 hs<br>Sábados, domingos y feriados · 09:00 a 13:00 y 16:30 a 22:00 hs</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- ============================================================
+         HERO
+    ============================================================ -->
+    <section id="inicio" class="hero relative flex min-h-[100svh] flex-col overflow-hidden bg-ivory pt-20 md:pt-24">
+      <div class="pointer-events-none absolute -right-44 top-24 h-[32rem] w-[32rem] rounded-full border border-ivory/15 md:-right-64 md:top-10 md:h-[46rem] md:w-[46rem]" aria-hidden="true"></div>
+      <div class="pointer-events-none absolute -right-28 top-40 h-[20rem] w-[20rem] rounded-full border border-ivory/10 md:-right-40 md:top-28 md:h-[30rem] md:w-[30rem]" aria-hidden="true"></div>
+
+      <div class="relative z-10 mx-auto flex w-full max-w-[1440px] flex-1 flex-col px-5 md:px-10">
+
+        <div class="hero-copy flex items-center justify-between border-b border-ivory/25 py-4 text-[7px] font-medium uppercase tracking-[0.18em] text-ivory/80 md:py-5 md:text-[9px] md:tracking-[0.24em]">
+          <span>Est. 2024 · Barreal, San Juan</span>
+          <span>Café de especialidad</span>
+        </div>
+
+        <div class="flex flex-1 flex-col items-center justify-center py-14 md:py-16">
+          <p class="hero-copy reveal text-[9px] font-medium uppercase tracking-[0.3em] text-ivory/85 md:text-[10px]">
+            Café de especialidad
+          </p>
+
+          <h1 class="hero-logo mt-4 flex flex-col items-center select-none md:mt-6">
+            <img src="imagenes/huar-emblem-cream.png" alt="" width="800" height="569" aria-hidden="true"
+              class="hero-logo__emblem h-auto w-[clamp(10rem,21vw,19rem)]">
+            <img src="imagenes/huar-wordmark-cream-warm.png" alt="HUAR" width="900" height="240"
+              class="mt-1 h-auto w-[clamp(15rem,33vw,30rem)] md:mt-2">
+          </h1>
+
+          <p class="hero-copy reveal mt-6 text-[10px] font-medium uppercase tracking-[0.36em] text-ivory/80 md:text-[11px]" style="transition-delay: 220ms;">
+            Filtrados y algo más
+          </p>
+        </div>
+
+        <div class="flex flex-col gap-6 border-t border-ivory/25 py-6 xl:flex-row xl:items-start xl:justify-between xl:gap-10 xl:py-8">
+          <div class="hero-copy grid grid-cols-2 gap-4 text-[8px] font-medium uppercase tracking-[0.2em] text-ivory/75 sm:gap-6 md:gap-8 xl:flex-1">
+            <div class="min-w-0">
+              <p class="text-ivory/50">Dirección</p>
+              <p class="mt-2 font-baskerville text-[10.5px] normal-case leading-[1.6] tracking-normal text-ivory/85 md:text-[12px] md:leading-[1.7]">
+                Av. Pres. Roca 1798 Sur<br>
+                La Casona de Yolanda, <span class="whitespace-nowrap">Local N.º 5</span><br>
+                J5405 Barreal, San Juan
+              </p>
+            </div>
+            <div class="min-w-0">
+              <p class="text-ivory/50">Horarios</p>
+              <p class="mt-2 font-baskerville text-[10.5px] normal-case leading-[1.6] tracking-normal text-ivory/85 md:text-[12px] md:leading-[1.7]">
+                Miércoles a viernes · <span class="whitespace-nowrap">17:00 a 21:00 hs</span><br>
+                Sábados, domingos y feriados<br>
+                <span class="whitespace-nowrap">09:00 a 13:00 hs</span> y <span class="whitespace-nowrap">16:30 a 22:00 hs</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-4 xl:shrink-0 xl:pt-1">
+            <a href="#metodos" class="hero-copy group flex items-center gap-3 text-[9px] font-medium uppercase tracking-[0.24em] text-ivory transition-colors hover:text-sand">
+              Explorá la carta
+              <span class="flex h-9 w-9 items-center justify-center rounded-full border border-ivory/45 transition-all duration-300 group-hover:border-ivory group-hover:bg-ivory group-hover:text-chocolate">
+                <span class="transition-transform duration-300 group-hover:translate-y-0.5">↓</span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         01 · EXPERIENCIAS DE CAFÉ
+    ============================================================ -->
+    <section id="metodos" class="py-24 md:py-36">
+      <div class="mx-auto max-w-6xl px-5 md:px-10">
+
+        <header class="reveal">
+          <div class="flex items-center gap-4 text-[8px] font-medium uppercase tracking-[0.28em] text-earth/60 md:text-[9px]">
+            <span class="h-px flex-1 bg-brass/35"></span>
+            <span>01 / Café de especialidad</span>
+            <span class="h-px flex-1 bg-brass/35"></span>
+          </div>
+
+          <h2 class="mx-auto mt-8 max-w-4xl text-center font-playfair text-[clamp(2.4rem,5.5vw,4.8rem)] font-bold leading-[1.08] tracking-[-0.02em] text-chocolate md:mt-10">
+            Café de <span class="italic">especialidad</span>
+          </h2>
+
+        </header>
+
+        <div class="mt-12 grid gap-x-14 border-b border-brass/30 md:mt-16 md:grid-cols-2" data-stagger>
+
+          <article class="menu-row reveal group border-t border-brass/30 py-6 md:py-7">
+            <div class="flex items-start gap-3.5 md:gap-5">
+              <span class="method-icon" aria-hidden="true">
+                <img src="imagenes/iconosvg/metodo-v60.png" alt="" width="320" height="320" loading="lazy" decoding="async">
+              </span>
+              <div class="min-w-0 flex-1">
+                <div class="flex flex-nowrap items-baseline justify-between gap-x-4">
+                  <h3 class="menu-title min-w-0 font-cormorant text-[1.35rem] font-semibold uppercase tracking-[0.035em] md:text-[1.55rem]">V60</h3>
+                  <span class="menu-price shrink-0 text-right text-[12px] font-medium tracking-[0.06em] text-earth/85 md:text-[13px]">$ 8.500 / $ 16.000</span>
+                </div>
+                <p class="mt-2 max-w-md font-baskerville text-[12.5px] leading-[1.7] text-earth/85 md:text-[13.5px]">
+                  Aromas, claridad y acidez. Notas limpias y florales.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-row reveal group border-t border-brass/30 py-6 md:py-7">
+            <div class="flex items-start gap-3.5 md:gap-5">
+              <span class="method-icon" aria-hidden="true">
+                <img src="imagenes/iconosvg/metodo-origami.png" alt="" width="320" height="320" loading="lazy" decoding="async">
+              </span>
+              <div class="min-w-0 flex-1">
+                <div class="flex flex-nowrap items-baseline justify-between gap-x-4">
+                  <h3 class="menu-title min-w-0 font-cormorant text-[1.35rem] font-semibold uppercase tracking-[0.035em] md:text-[1.55rem]">ORIGAMI</h3>
+                  <span class="menu-price shrink-0 text-right text-[12px] font-medium tracking-[0.06em] text-earth/85 md:text-[13px]">$ 8.500 / $ 16.000</span>
+                </div>
+                <p class="mt-2 max-w-md font-baskerville text-[12.5px] leading-[1.7] text-earth/85 md:text-[13.5px]">
+                  Claridad y elegancia. Notas limpias y florales.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-row reveal group border-t border-brass/30 py-6 md:py-7">
+            <div class="flex items-start gap-3.5 md:gap-5">
+              <span class="method-icon" aria-hidden="true">
+                <img src="imagenes/iconosvg/metodo-chemex.png" alt="" width="320" height="320" loading="lazy" decoding="async">
+              </span>
+              <div class="min-w-0 flex-1">
+                <div class="flex flex-nowrap items-baseline justify-between gap-x-4">
+                  <h3 class="menu-title min-w-0 font-cormorant text-[1.35rem] font-semibold uppercase tracking-[0.035em] md:text-[1.55rem]">CHEMEX</h3>
+                  <span class="menu-price shrink-0 text-right text-[12px] font-medium tracking-[0.06em] text-earth/85 md:text-[13px]">$ 8.500 / $ 16.000</span>
+                </div>
+                <p class="mt-2 max-w-md font-baskerville text-[12.5px] leading-[1.7] text-earth/85 md:text-[13.5px]">
+                  Resalta notas y aromas delicados.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-row reveal group border-t border-brass/30 py-6 md:py-7">
+            <div class="flex items-start gap-3.5 md:gap-5">
+              <span class="method-icon" aria-hidden="true">
+                <img src="imagenes/iconosvg/metodo-prensa.png" alt="" width="320" height="320" loading="lazy" decoding="async">
+              </span>
+              <div class="min-w-0 flex-1">
+                <div class="flex flex-nowrap items-baseline justify-between gap-x-4">
+                  <h3 class="menu-title min-w-0 font-cormorant text-[1.35rem] font-semibold uppercase tracking-[0.035em] md:text-[1.55rem]">PRENSA FRANCESA</h3>
+                  <span class="menu-price shrink-0 text-right text-[12px] font-medium tracking-[0.06em] text-earth/85 md:text-[13px]">$ 8.500 / $ 16.000</span>
+                </div>
+                <p class="mt-2 max-w-md font-baskerville text-[12.5px] leading-[1.7] text-earth/85 md:text-[13.5px]">
+                  Cuerpo e intensidad. Más textura y profundidad.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-row reveal group border-t border-brass/30 py-6 md:py-7">
+            <div class="flex items-start gap-3.5 md:gap-5">
+              <span class="method-icon" aria-hidden="true">
+                <img src="imagenes/iconosvg/metodo-aeropress.png" alt="" width="320" height="320" loading="lazy" decoding="async">
+              </span>
+              <div class="min-w-0 flex-1">
+                <div class="flex flex-nowrap items-baseline justify-between gap-x-4">
+                  <h3 class="menu-title min-w-0 font-cormorant text-[1.35rem] font-semibold uppercase tracking-[0.035em] md:text-[1.55rem]">AEROPRESS</h3>
+                  <span class="menu-price shrink-0 text-right text-[12px] font-medium tracking-[0.06em] text-earth/85 md:text-[13px]">$ 8.500</span>
+                </div>
+                <p class="mt-2 max-w-md font-baskerville text-[12.5px] leading-[1.7] text-earth/85 md:text-[13.5px]">
+                  Equilibrio y versatilidad.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-row reveal group border-t border-brass/30 py-6 md:py-7">
+            <div class="flex items-start gap-3.5 md:gap-5">
+              <span class="method-icon" aria-hidden="true">
+                <img src="imagenes/iconosvg/metodo-aeropress.png" alt="" width="320" height="320" loading="lazy" decoding="async">
+              </span>
+              <div class="min-w-0 flex-1">
+                <div class="flex flex-nowrap items-baseline justify-between gap-x-4">
+                  <h3 class="menu-title min-w-0 font-cormorant text-[1.35rem] font-semibold uppercase tracking-[0.035em] md:text-[1.55rem]">AEROPRESS LATTE</h3>
+                  <span class="menu-price shrink-0 text-right text-[12px] font-medium tracking-[0.06em] text-earth/85 md:text-[13px]">$ 9.500</span>
+                </div>
+                <p class="mt-2 max-w-md font-baskerville text-[12.5px] leading-[1.7] text-earth/85 md:text-[13.5px]">
+                  Café de origen preparado en AeroPress con leche cremosa y textura sedosa. Opción con leche vegetal.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         02 · INFUSIONES
+    ============================================================ -->
+    <section id="infusiones" class="border-t border-brass/25 py-24 md:py-36">
+      <div class="mx-auto max-w-6xl px-5 md:px-10">
+
+        <header class="reveal">
+          <div class="flex items-center gap-4 text-[8px] font-medium uppercase tracking-[0.28em] text-earth/60 md:text-[9px]">
+            <span class="h-px flex-1 bg-brass/35"></span>
+            <span>02 / Infusiones</span>
+            <span class="h-px flex-1 bg-brass/35"></span>
+          </div>
+
+          <h2 class="mx-auto mt-8 max-w-4xl text-center font-playfair text-[clamp(2.1rem,4.8vw,4.3rem)] font-bold leading-[1.1] tracking-[-0.02em] text-chocolate md:mt-10">
+            Infusiones y<br>Bebidas Frescas
+          </h2>
+        </header>
+
+        <div class="mt-12 grid gap-x-14 border-b border-brass/30 md:mt-16 md:grid-cols-2" data-stagger>
+
+          <article class="menu-row reveal group border-t border-brass/30 py-6 md:py-7">
+            <div class="flex flex-nowrap items-baseline justify-between gap-x-5">
+              <h3 class="menu-title min-w-0 font-cormorant text-[1.35rem] font-semibold uppercase tracking-[0.035em] md:text-[1.55rem]">YERBEADO</h3>
+              <span class="menu-price shrink-0 text-right text-[12px] font-medium tracking-[0.06em] text-earth/85 md:text-[13px]">$ 14.000</span>
+            </div>
+            <p class="mt-2 max-w-md font-baskerville text-[12.5px] leading-[1.7] text-earth/85 md:text-[13.5px]">
+              Yerba, cedrón, burro y cáscaras cítricas. Fresca, aromática y equilibrada.
+            </p>
+          </article>
+
+          <article class="menu-row reveal group border-t border-brass/30 py-6 md:py-7">
+            <div class="flex flex-nowrap items-baseline justify-between gap-x-5">
+              <h3 class="menu-title min-w-0 font-cormorant text-[1.35rem] font-semibold uppercase tracking-[0.035em] md:text-[1.55rem]">OTRAS INFUSIONES</h3>
+              <span class="menu-price shrink-0 text-right text-[12px] font-medium tracking-[0.06em] text-earth/85 md:text-[13px]">$ 8.000 / $ 14.000</span>
+            </div>
+            <p class="mt-2 max-w-md font-baskerville text-[12.5px] leading-[1.7] text-earth/85 md:text-[13.5px]">
+              Té negro, té verde, manzanilla, boldo y menta.
+            </p>
+          </article>
+
+          <article id="bebidas" class="menu-row reveal group border-t border-brass/30 py-6 md:py-7">
+            <div class="flex flex-nowrap items-baseline justify-between gap-x-5">
+              <h3 class="menu-title min-w-0 font-cormorant text-[1.35rem] font-semibold uppercase tracking-[0.035em] md:text-[1.55rem]">JUGO DE NARANJA</h3>
+              <span class="menu-price shrink-0 text-right text-[12px] font-medium tracking-[0.06em] text-earth/85 md:text-[13px]">$ 6.000</span>
+            </div>
+            <p class="mt-2 max-w-md font-baskerville text-[12.5px] leading-[1.7] text-earth/85 md:text-[13.5px]">
+              Vaso de jugo de naranja.
+            </p>
+          </article>
+
+          <article class="menu-row reveal group border-t border-brass/30 py-6 md:py-7">
+            <div class="flex flex-nowrap items-baseline justify-between gap-x-5">
+              <h3 class="menu-title min-w-0 font-cormorant text-[1.35rem] font-semibold uppercase tracking-[0.035em] md:text-[1.55rem]">GASEOSA PERSONAL</h3>
+              <span class="menu-price shrink-0 text-right text-[12px] font-medium tracking-[0.06em] text-earth/85 md:text-[13px]">$ 3.800</span>
+            </div>
+            <p class="mt-2 max-w-md font-baskerville text-[12.5px] leading-[1.7] text-earth/85 md:text-[13.5px]">
+              Bien fría, para acompañar el momento.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         03 · NUESTROS CAFÉS DE ORIGEN
+    ============================================================ -->
+    <section id="origenes" class="relative overflow-hidden border-t border-brass/25 bg-ivory py-24 text-earth md:py-36">
+      <div class="pointer-events-none absolute -left-48 top-20 h-[30rem] w-[30rem] rounded-full border border-brass/15" aria-hidden="true"></div>
+      <img src="imagenes/huar-emblem-gold.png" alt="" width="800" height="569" loading="lazy" decoding="async"
+        class="pointer-events-none absolute -right-36 top-10 w-[26rem] opacity-[0.055] md:-right-24 md:top-16 md:w-[36rem]" aria-hidden="true">
+
+      <div class="relative mx-auto max-w-6xl px-5 md:px-10">
+
+        <header class="reveal">
+          <div class="flex items-center gap-4 text-[8px] font-medium uppercase tracking-[0.28em] text-earth/60 md:text-[9px]">
+            <span class="h-px flex-1 bg-brass/35"></span>
+            <span>03 / Orígenes</span>
+            <span class="h-px flex-1 bg-brass/35"></span>
+          </div>
+
+          <h2 class="mx-auto mt-8 max-w-4xl text-center font-playfair text-[clamp(2.3rem,5vw,4.5rem)] font-bold leading-[1.08] tracking-[-0.02em] text-chocolate md:mt-10">
+            Nuestros Cafés de Origen
+          </h2>
+
+        </header>
+
+        <div class="mt-10 flex flex-col gap-5 md:mt-14 md:flex-row md:items-center md:justify-between">
+          <div class="flex flex-wrap items-center gap-2.5" role="group" aria-label="Filtrar cafés por proceso">
+            <button type="button" class="filter-btn is-active" data-filter="todos" aria-pressed="true">Todos</button>
+            <button type="button" class="filter-btn" data-filter="lavado" aria-pressed="false">Lavado</button>
+            <button type="button" class="filter-btn" data-filter="natural" aria-pressed="false">Natural</button>
+            <button type="button" class="filter-btn" data-filter="honey" aria-pressed="false">Honey</button>
+          </div>
+        </div>
+
+        <p id="origins-status" class="sr-only" aria-live="polite"></p>
+
+        <div class="mt-8 border-b border-brass/30 md:mt-10">
+
+          <article class="origin-row group relative -mx-4 border-t border-brass/30 px-4 py-8 md:-mx-6 md:px-6 md:py-9" data-origin data-process="lavado">
+            <div class="grid gap-5 md:grid-cols-12 md:items-start md:gap-6">
+              <div class="flex items-center justify-between md:col-span-1 md:block">
+                <span class="origin-faint font-playfair text-[2.1rem] font-bold leading-none tabular-nums md:text-[2.6rem]">01</span>
+                <span class="origin-faint text-[8px] uppercase tracking-[0.2em] md:hidden">Lavado</span>
+              </div>
+              <div class="md:col-span-4">
+                <p class="origin-accent text-[8px] font-medium uppercase tracking-[0.24em]">Colombia</p>
+                <h3 class="mt-1.5 font-cormorant text-[1.85rem] font-semibold leading-[1.02] tracking-[-0.01em] text-chocolate md:text-[2.1rem]">San Agustín</h3>
+                <p class="origin-muted mt-2 font-baskerville text-[11px] leading-snug md:text-[12px]">Región: San Agustín, Huila</p>
+              </div>
+              <dl class="grid grid-cols-3 gap-3 md:col-span-4">
+                <div>
+                  <dt class="origin-faint text-[7px] uppercase tracking-[0.2em]">Varietal</dt>
+                  <dd class="origin-muted mt-1.5 font-baskerville text-[10px] leading-snug md:text-[11px]">Caturra</dd>
+                </div>
+                <div>
+                  <dt class="origin-faint text-[7px] uppercase tracking-[0.2em]">Proceso</dt>
+                  <dd class="origin-muted mt-1.5 font-baskerville text-[10px] leading-snug md:text-[11px]">Lavado</dd>
+                </div>
+                <div>
+                  <dt class="origin-faint text-[7px] uppercase tracking-[0.2em]">Altitud</dt>
+                  <dd class="origin-muted mt-1.5 font-baskerville text-[10px] leading-snug md:text-[11px]">1.700 msnm</dd>
+                </div>
+              </dl>
+              <div class="md:col-span-3">
+                <p class="origin-accent text-[7px] uppercase tracking-[0.22em]">Notas en taza</p>
+                <p class="origin-muted mt-1.5 font-baskerville text-[12.5px] leading-[1.7] md:text-[13px]">Chocolate, avellana y naranja.</p>
+                <p class="origin-muted mt-2 font-baskerville text-[10.5px] italic leading-snug">(Chemex y AeroPress · café base y versátil)</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="origin-row group relative -mx-4 border-t border-brass/30 px-4 py-8 md:-mx-6 md:px-6 md:py-9" data-origin data-process="lavado">
+            <div class="grid gap-5 md:grid-cols-12 md:items-start md:gap-6">
+              <div class="flex items-center justify-between md:col-span-1 md:block">
+                <span class="origin-faint font-playfair text-[2.1rem] font-bold leading-none tabular-nums md:text-[2.6rem]">02</span>
+                <span class="origin-faint text-[8px] uppercase tracking-[0.2em] md:hidden">Lavado</span>
+              </div>
+              <div class="md:col-span-4">
+                <p class="origin-accent text-[8px] font-medium uppercase tracking-[0.24em]">Colombia</p>
+                <h3 class="mt-1.5 font-cormorant text-[1.85rem] font-semibold leading-[1.02] tracking-[-0.01em] text-chocolate md:text-[2.1rem]">Bourbon Rosado</h3>
+                <p class="origin-muted mt-2 font-baskerville text-[11px] leading-snug md:text-[12px]">Región: San Antonio, Tolima</p>
+              </div>
+              <dl class="grid grid-cols-3 gap-3 md:col-span-4">
+                <div>
+                  <dt class="origin-faint text-[7px] uppercase tracking-[0.2em]">Varietal</dt>
+                  <dd class="origin-muted mt-1.5 font-baskerville text-[10px] leading-snug md:text-[11px]">Bourbon Rosado</dd>
+                </div>
+                <div>
+                  <dt class="origin-faint text-[7px] uppercase tracking-[0.2em]">Proceso</dt>
+                  <dd class="origin-muted mt-1.5 font-baskerville text-[10px] leading-snug md:text-[11px]">Lavado (36 h)</dd>
+                </div>
+                <div>
+                  <dt class="origin-faint text-[7px] uppercase tracking-[0.2em]">Altitud</dt>
+                  <dd class="origin-muted mt-1.5 font-baskerville text-[10px] leading-snug md:text-[11px]">1.800 msnm</dd>
+                </div>
+              </dl>
+              <div class="md:col-span-3">
+                <p class="origin-accent text-[7px] uppercase tracking-[0.22em]">Notas en taza</p>
+                <p class="origin-muted mt-1.5 font-baskerville text-[12.5px] leading-[1.7] md:text-[13px]">Pomelo, té de jazmín, miel, mandarina y durazno blanco.</p>
+                <p class="origin-muted mt-2 font-baskerville text-[10.5px] italic leading-snug">(V60 · perfil floral y cítrico)</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="origin-row group relative -mx-4 border-t border-brass/30 px-4 py-8 md:-mx-6 md:px-6 md:py-9" data-origin data-process="lavado">
+            <div class="grid gap-5 md:grid-cols-12 md:items-start md:gap-6">
+              <div class="flex items-center justify-between md:col-span-1 md:block">
+                <span class="origin-faint font-playfair text-[2.1rem] font-bold leading-none tabular-nums md:text-[2.6rem]">03</span>
+                <span class="origin-faint text-[8px] uppercase tracking-[0.2em] md:hidden">Lavado</span>
+              </div>
+              <div class="md:col-span-4">
+                <p class="origin-accent text-[8px] font-medium uppercase tracking-[0.24em]">Colombia</p>
+                <h3 class="mt-1.5 font-cormorant text-[1.85rem] font-semibold leading-[1.02] tracking-[-0.01em] text-chocolate md:text-[2.1rem]">Java</h3>
+                <p class="origin-muted mt-2 font-baskerville text-[11px] leading-snug md:text-[12px]">Región: San José de Isnos</p>
+              </div>
+              <dl class="grid grid-cols-3 gap-3 md:col-span-4">
+                <div>
+                  <dt class="origin-faint text-[7px] uppercase tracking-[0.2em]">Varietal</dt>
+                  <dd class="origin-muted mt-1.5 font-baskerville text-[10px] leading-snug md:text-[11px]">Java</dd>
+                </div>
+                <div>
+                  <dt class="origin-faint text-[7px] uppercase tracking-[0.2em]">Proceso</dt>
+                  <dd class="origin-muted mt-1.5 font-baskerville text-[10px] leading-snug md:text-[11px]">Lavado fermentado</dd>
+                </div>
+                <div>
+                  <dt class="origin-faint text-[7px] uppercase tracking-[0.2em]">Altitud</dt>
+                  <dd class="origin-muted mt-1.5 font-baskerville text-[10px] leading-snug md:text-[11px]">1.720 msnm</dd>
+                </div>
+              </dl>
+              <div class="md:col-span-3">
+                <p class="origin-accent text-[7px] uppercase tracking-[0.22em]">Notas en taza</p>
+                <p class="origin-muted mt-1.5 font-baskerville text-[12.5px] leading-[1.7] md:text-[13px]">Floral, manzana y piña.</p>
+                <p class="origin-muted mt-2 font-baskerville text-[10.5px] italic leading-snug">(V60 · perfil floral y frutal)</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="origin-row group relative -mx-4 border-t border-brass/30 px-4 py-8 md:-mx-6 md:px-6 md:py-9" data-origin data-process="lavado">
+            <div class="grid gap-5 md:grid-cols-12 md:items-start md:gap-6">
+              <div class="flex items-center justify-between md:col-span-1 md:block">
+                <span class="origin-faint font-playfair text-[2.1rem] font-bold leading-none tabular-nums md:text-[2.6rem]">04</span>
+                <span class="origin-faint text-[8px] uppercase tracking-[0.2em] md:hidden">Lavado</span>
+              </div>
+              <div class="md:col-span-4">
+                <p class="origin-accent text-[8px] font-medium uppercase tracking-[0.24em]">Brasil</p>
+                <h3 class="mt-1.5 font-cormorant text-[1.85rem] font-semibold leading-[1.02] tracking-[-0.01em] text-chocolate md:text-[2.1rem]">Caracolito</h3>
+                <p class="origin-muted mt-2 font-baskerville text-[11px] leading-snug md:text-[12px]">Región: Campos Altos, Minas Gerais</p>
+              </div>
+              <dl class="grid grid-cols-3 gap-3 md:col-span-4">
+                <div>
+                  <dt class="origin-faint text-[7px] uppercase tracking-[0.2em]">Varietal</dt>
+                  <dd class="origin-muted mt-1.5 font-baskerville text-[10px] leading-snug md:text-[11px]">Caturra</dd>
+                </div>
+                <div>
+                  <dt class="origin-faint text-[7px] uppercase tracking-[0.2em]">Proceso</dt>
+                  <dd class="origin-muted mt-1.5 font-baskerville text-[10px] leading-snug md:text-[11px]">Lavado</dd>
+                </div>
+                <div>
+                  <dt class="origin-faint text-[7px] uppercase tracking-[0.2em]">Altitud</dt>
+                  <dd class="origin-muted mt-1.5 font-baskerville text-[10px] leading-snug md:text-[11px]">1.200 msnm</dd>
+                </div>
+              </dl>
+              <div class="md:col-span-3">
+                <p class="origin-accent text-[7px] uppercase tracking-[0.22em]">Notas en taza</p>
+                <p class="origin-muted mt-1.5 font-baskerville text-[12.5px] leading-[1.7] md:text-[13px]">Caramelo, nuez y pimienta.</p>
+                <p class="origin-muted mt-2 font-baskerville text-[10.5px] italic leading-snug">(AeroPress y prensa francesa · más cuerpo)</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="origin-row group relative -mx-4 border-t border-brass/30 px-4 py-8 md:-mx-6 md:px-6 md:py-9" data-origin data-process="honey">
+            <div class="grid gap-5 md:grid-cols-12 md:items-start md:gap-6">
+              <div class="flex items-center justify-between md:col-span-1 md:block">
+                <span class="origin-faint font-playfair text-[2.1rem] font-bold leading-none tabular-nums md:text-[2.6rem]">05</span>
+                <span class="origin-faint text-[8px] uppercase tracking-[0.2em] md:hidden">Honey</span>
+              </div>
+              <div class="md:col-span-4">
+                <p class="origin-accent text-[8px] font-medium uppercase tracking-[0.24em]">Colombia · Especial</p>
+                <h3 class="mt-1.5 font-cormorant text-[1.85rem] font-semibold leading-[1.02] tracking-[-0.01em] text-chocolate md:text-[2.1rem]">Colombia Caturra Honey</h3>
+                <p class="origin-muted mt-2 font-baskerville text-[11px] leading-snug md:text-[12px]">Región: San Antonio, Tolima</p>
+              </div>
+              <dl class="grid grid-cols-3 gap-3 md:col-span-4">
+                <div>
+                  <dt class="origin-faint text-[7px] uppercase tracking-[0.2em]">Varietal</dt>
+                  <dd class="origin-muted mt-1.5 font-baskerville text-[10px] leading-snug md:text-[11px]">Caturra</dd>
+                </div>
+                <div>
+                  <dt class="origin-faint text-[7px] uppercase tracking-[0.2em]">Proceso</dt>
+                  <dd class="origin-muted mt-1.5 font-baskerville text-[10px] leading-snug md:text-[11px]">Black Honey</dd>
+                </div>
+                <div>
+                  <dt class="origin-faint text-[7px] uppercase tracking-[0.2em]">Altitud</dt>
+                  <dd class="origin-muted mt-1.5 font-baskerville text-[10px] leading-snug md:text-[11px]">2.000 msnm</dd>
+                </div>
+              </dl>
+              <div class="md:col-span-3">
+                <p class="origin-accent text-[7px] uppercase tracking-[0.22em]">Notas en taza</p>
+                <p class="origin-muted mt-1.5 font-baskerville text-[12.5px] leading-[1.7] md:text-[13px]">Frutos amarillos, miel, matices florales y caramelo.</p>
+                <p class="origin-muted mt-2 font-baskerville text-[10.5px] italic leading-snug">(Filtrados · experiencia especial y única)</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="origin-row group relative -mx-4 border-t border-brass/30 px-4 py-8 md:-mx-6 md:px-6 md:py-9" data-origin data-process="natural">
+            <div class="grid gap-5 md:grid-cols-12 md:items-start md:gap-6">
+              <div class="flex items-center justify-between md:col-span-1 md:block">
+                <span class="origin-faint font-playfair text-[2.1rem] font-bold leading-none tabular-nums md:text-[2.6rem]">06</span>
+                <span class="origin-faint text-[8px] uppercase tracking-[0.2em] md:hidden">Natural</span>
+              </div>
+              <div class="md:col-span-4">
+                <p class="origin-accent text-[8px] font-medium uppercase tracking-[0.24em]">Brasil</p>
+                <h3 class="mt-1.5 font-cormorant text-[1.85rem] font-semibold leading-[1.02] tracking-[-0.01em] text-chocolate md:text-[2.1rem]">Brasil Las Pereiras</h3>
+                <p class="origin-muted mt-2 font-baskerville text-[11px] leading-snug md:text-[12px]">Región: Minas Gerais</p>
+              </div>
+              <dl class="grid grid-cols-3 gap-3 md:col-span-4">
+                <div>
+                  <dt class="origin-faint text-[7px] uppercase tracking-[0.2em]">Varietal</dt>
+                  <dd class="origin-muted mt-1.5 font-baskerville text-[10px] leading-snug md:text-[11px]">Bourbon y Catuaí</dd>
+                </div>
+                <div>
+                  <dt class="origin-faint text-[7px] uppercase tracking-[0.2em]">Proceso</dt>
+                  <dd class="origin-muted mt-1.5 font-baskerville text-[10px] leading-snug md:text-[11px]">Natural</dd>
+                </div>
+                <div>
+                  <dt class="origin-faint text-[7px] uppercase tracking-[0.2em]">Altitud</dt>
+                  <dd class="origin-muted mt-1.5 font-baskerville text-[10px] leading-snug md:text-[11px]">1.100–1.300 msnm</dd>
+                </div>
+              </dl>
+              <div class="md:col-span-3">
+                <p class="origin-accent text-[7px] uppercase tracking-[0.22em]">Notas en taza</p>
+                <p class="origin-muted mt-1.5 font-baskerville text-[12.5px] leading-[1.7] md:text-[13px]">Chocolate con leche, almendras y caramelo.</p>
+                <p class="origin-muted mt-2 font-baskerville text-[10.5px] italic leading-snug">(Chemex y V60 · dulzura y balance)</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="origin-row group relative -mx-4 border-t border-brass/30 px-4 py-8 md:-mx-6 md:px-6 md:py-9" data-origin data-process="natural">
+            <div class="grid gap-5 md:grid-cols-12 md:items-start md:gap-6">
+              <div class="flex items-center justify-between md:col-span-1 md:block">
+                <span class="origin-faint font-playfair text-[2.1rem] font-bold leading-none tabular-nums md:text-[2.6rem]">07</span>
+                <span class="origin-faint text-[8px] uppercase tracking-[0.2em] md:hidden">Natural</span>
+              </div>
+              <div class="md:col-span-4">
+                <p class="origin-accent text-[8px] font-medium uppercase tracking-[0.24em]">Colombia · Especial</p>
+                <h3 class="mt-1.5 font-cormorant text-[1.85rem] font-semibold leading-[1.02] tracking-[-0.01em] text-chocolate md:text-[2.1rem]">Chaparral</h3>
+                <p class="origin-muted mt-2 font-baskerville text-[11px] leading-snug md:text-[12px]">Región: Chaparral, Tolima</p>
+              </div>
+              <dl class="grid grid-cols-3 gap-3 md:col-span-4">
+                <div>
+                  <dt class="origin-faint text-[7px] uppercase tracking-[0.2em]">Varietal</dt>
+                  <dd class="origin-muted mt-1.5 font-baskerville text-[10px] leading-snug md:text-[11px]">Caturra</dd>
+                </div>
+                <div>
+                  <dt class="origin-faint text-[7px] uppercase tracking-[0.2em]">Proceso</dt>
+                  <dd class="origin-muted mt-1.5 font-baskerville text-[10px] leading-snug md:text-[11px]">Natural</dd>
+                </div>
+                <div>
+                  <dt class="origin-faint text-[7px] uppercase tracking-[0.2em]">Altitud</dt>
+                  <dd class="origin-muted mt-1.5 font-baskerville text-[10px] leading-snug md:text-[11px]">1.800 msnm</dd>
+                </div>
+              </dl>
+              <div class="md:col-span-3">
+                <p class="origin-accent text-[7px] uppercase tracking-[0.22em]">Notas en taza</p>
+                <p class="origin-muted mt-1.5 font-baskerville text-[12.5px] leading-[1.7] md:text-[13px]">Frutos rojos, ciruelas, cacao y pasas de uva.</p>
+                <p class="origin-muted mt-2 font-baskerville text-[10.5px] italic leading-snug">(V60 · perfil complejo y frutal)</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         04 · ACOMPAÑAMIENTOS Y PLATOS
+    ============================================================ -->
+    <section id="comida" class="border-t border-brass/25 py-24 md:py-36">
+      <div class="mx-auto max-w-6xl px-5 md:px-10">
+
+        <header class="reveal">
+          <div class="flex items-center gap-4 text-[8px] font-medium uppercase tracking-[0.28em] text-earth/60 md:text-[9px]">
+            <span class="h-px flex-1 bg-brass/35"></span>
+            <span>04 / Acompañamientos</span>
+            <span class="h-px flex-1 bg-brass/35"></span>
+          </div>
+
+          <h2 class="mx-auto mt-8 max-w-4xl text-center font-playfair text-[clamp(1.8rem,5vw,4.6rem)] font-bold leading-[1.08] tracking-[-0.02em] text-chocolate md:mt-10">
+            Acompañamientos
+          </h2>
+
+        </header>
+
+        <div class="mt-12 grid gap-x-14 border-b border-brass/30 md:mt-16 md:grid-cols-2" data-stagger>
+
+          <article class="menu-row reveal group border-t border-brass/30 py-6 md:py-7">
+            <div class="flex flex-nowrap items-baseline justify-between gap-x-5">
+              <h3 class="menu-title min-w-0 font-cormorant text-[1.35rem] font-semibold uppercase tracking-[0.035em] md:text-[1.55rem]">MEDIALUNAS DE MASA MADRE</h3>
+              <span class="menu-price shrink-0 text-right text-[12px] font-medium tracking-[0.06em] text-earth/85 md:text-[13px]">$ 3.500</span>
+            </div>
+            <p class="mt-2 max-w-md font-baskerville text-[12.5px] leading-[1.7] text-earth/85 md:text-[13.5px]">
+              Leves, hojaldradas, de fermentación natural.
+            </p>
+          </article>
+
+          <article class="menu-row reveal group border-t border-brass/30 py-6 md:py-7">
+            <div class="flex flex-nowrap items-baseline justify-between gap-x-5">
+              <h3 class="menu-title min-w-0 font-cormorant text-[1.35rem] font-semibold uppercase tracking-[0.035em] md:text-[1.55rem]">SEMITAS</h3>
+              <span class="menu-price shrink-0 text-right text-[12px] font-medium tracking-[0.06em] text-earth/85 md:text-[13px]">$ 2.500</span>
+            </div>
+            <p class="mt-2 max-w-md font-baskerville text-[12.5px] leading-[1.7] text-earth/85 md:text-[13.5px]">
+              Receta tradicional sanjuanina.
+            </p>
+          </article>
+
+          <article class="menu-row reveal group border-t border-brass/30 py-6 md:py-7">
+            <div class="flex flex-nowrap items-baseline justify-between gap-x-5">
+              <h3 class="menu-title min-w-0 font-cormorant text-[1.35rem] font-semibold uppercase tracking-[0.035em] md:text-[1.55rem]">TOSTADAS CON QUESO CREMA Y DULCE</h3>
+              <span class="menu-price shrink-0 text-right text-[12px] font-medium tracking-[0.06em] text-earth/85 md:text-[13px]">$ 8.500</span>
+            </div>
+            <p class="mt-2 max-w-md font-baskerville text-[12.5px] leading-[1.7] text-earth/85 md:text-[13.5px]">
+              Tostadas artesanales con queso crema y dulce de estación.
+            </p>
+          </article>
+
+          <article class="menu-row reveal group border-t border-brass/30 py-6 md:py-7">
+            <div class="flex flex-nowrap items-baseline justify-between gap-x-5">
+              <h3 class="menu-title min-w-0 font-cormorant text-[1.35rem] font-semibold uppercase tracking-[0.035em] md:text-[1.55rem]">CROISSANT RELLENO</h3>
+              <span class="menu-price shrink-0 text-right text-[12px] font-medium tracking-[0.06em] text-earth/85 md:text-[13px]">$ 10.000</span>
+            </div>
+            <p class="mt-2 max-w-md font-baskerville text-[12.5px] leading-[1.7] text-earth/85 md:text-[13.5px]">
+              Croissant relleno con alcayota, nuez y queso de cabra.
+            </p>
+          </article>
+
+          <article class="menu-row reveal group border-t border-brass/30 py-6 md:py-7">
+            <div class="flex flex-nowrap items-baseline justify-between gap-x-5">
+              <h3 class="menu-title min-w-0 font-cormorant text-[1.35rem] font-semibold uppercase tracking-[0.035em] md:text-[1.55rem]">YOGUR CON GRANOLA, MIEL Y FRUTA</h3>
+              <span class="menu-price shrink-0 text-right text-[12px] font-medium tracking-[0.06em] text-earth/85 md:text-[13px]">$ 12.000</span>
+            </div>
+            <p class="mt-2 max-w-md font-baskerville text-[12.5px] leading-[1.7] text-earth/85 md:text-[13.5px]">
+              Yogur natural con granola, miel y fruta de estación.
+            </p>
+          </article>
+        </div>
+      </div>
+
+      <div id="platos" class="mx-auto mt-16 max-w-6xl border-t border-brass/25 px-5 pt-16 md:mt-20 md:px-10 md:pt-20">
+
+        <header class="reveal">
+          <div class="flex items-center gap-4 text-[8px] font-medium uppercase tracking-[0.28em] text-earth/60 md:text-[9px]">
+            <span class="h-px flex-1 bg-brass/35"></span>
+            <span>05 / Platos</span>
+            <span class="h-px flex-1 bg-brass/35"></span>
+          </div>
+
+          <h2 class="mx-auto mt-8 max-w-4xl text-center font-playfair text-[clamp(1.8rem,5vw,4.6rem)] font-bold leading-[1.08] tracking-[-0.02em] text-chocolate md:mt-10">
+            Platos
+          </h2>
+        </header>
+
+        <div class="mt-12 grid gap-x-14 border-b border-brass/30 md:mt-16 md:grid-cols-2" data-stagger>
+
+          <article class="menu-row reveal group border-t border-brass/30 py-6 md:py-7">
+            <div class="flex flex-nowrap items-baseline justify-between gap-x-5">
+              <h3 class="menu-title min-w-0 font-cormorant text-[1.35rem] font-semibold uppercase tracking-[0.035em] md:text-[1.55rem]">HUEVOS HUAR</h3>
+              <span class="menu-price shrink-0 text-right text-[12px] font-medium tracking-[0.06em] text-earth/85 md:text-[13px]">$ 14.000</span>
+            </div>
+            <p class="mt-2 max-w-md font-baskerville text-[12.5px] leading-[1.7] text-earth/85 md:text-[13.5px]">
+              Huevos a la turca acompañado con pan de masa madre.
+            </p>
+          </article>
+
+          <article class="menu-row reveal group border-t border-brass/30 py-6 md:py-7">
+            <div class="flex flex-nowrap items-baseline justify-between gap-x-5">
+              <h3 class="menu-title min-w-0 font-cormorant text-[1.35rem] font-semibold uppercase tracking-[0.035em] md:text-[1.55rem]">OMELETTE</h3>
+              <span class="menu-price shrink-0 text-right text-[12px] font-medium tracking-[0.06em] text-earth/85 md:text-[13px]">$ 12.000</span>
+            </div>
+            <p class="mt-2 max-w-md font-baskerville text-[12.5px] leading-[1.7] text-earth/85 md:text-[13.5px]">
+              Relleno de jamón y queso. Opción sin TACC.
+            </p>
+          </article>
+
+          <article class="menu-row reveal group border-t border-brass/30 py-6 md:py-7">
+            <div class="flex flex-nowrap items-baseline justify-between gap-x-5">
+              <h3 class="menu-title min-w-0 font-cormorant text-[1.35rem] font-semibold uppercase tracking-[0.035em] md:text-[1.55rem]">TORTILLA FUNGI</h3>
+              <span class="menu-price shrink-0 text-right text-[12px] font-medium tracking-[0.06em] text-earth/85 md:text-[13px]">$ 14.000</span>
+            </div>
+            <p class="mt-2 max-w-md font-baskerville text-[12.5px] leading-[1.7] text-earth/85 md:text-[13.5px]">
+              Con huevo, queso Danbo y hongos shiitake en conserva.
+            </p>
+          </article>
+
+          <article class="menu-row reveal group border-t border-brass/30 py-6 md:py-7">
+            <div class="flex flex-nowrap items-baseline justify-between gap-x-5">
+              <h3 class="menu-title min-w-0 font-cormorant text-[1.35rem] font-semibold uppercase tracking-[0.035em] md:text-[1.55rem]">TOSTÓN DE LOMO DE CERDO</h3>
+              <span class="menu-price shrink-0 text-right text-[12px] font-medium tracking-[0.06em] text-earth/85 md:text-[13px]">$ 14.000</span>
+            </div>
+            <p class="mt-2 max-w-md font-baskerville text-[12.5px] leading-[1.7] text-earth/85 md:text-[13.5px]">
+              Tostón de masa madre con queso de cabra, lomo de cerdo especiado, rúcula, nueces y miel.
+            </p>
+          </article>
+
+          <article class="menu-row reveal group border-t border-brass/30 py-6 md:py-7">
+            <div class="flex flex-nowrap items-baseline justify-between gap-x-5">
+              <h3 class="menu-title min-w-0 font-cormorant text-[1.35rem] font-semibold uppercase tracking-[0.035em] md:text-[1.55rem]">FOCACCIA RELLENA</h3>
+              <span class="menu-price shrink-0 text-right text-[12px] font-medium tracking-[0.06em] text-earth/85 md:text-[13px]">$ 14.000</span>
+            </div>
+            <p class="mt-2 max-w-md font-baskerville text-[12.5px] leading-[1.7] text-earth/85 md:text-[13.5px]">
+              Focaccia rellena con mortadela, crema de queso de cabra y pesto (ideal para compartir).
+            </p>
+          </article>
+
+          <article class="menu-row reveal group border-t border-brass/30 py-6 md:py-7">
+            <div class="flex flex-nowrap items-baseline justify-between gap-x-5">
+              <h3 class="menu-title min-w-0 font-cormorant text-[1.35rem] font-semibold uppercase tracking-[0.035em] md:text-[1.55rem]">TOSTADA FRANCESA</h3>
+              <span class="menu-price shrink-0 text-right text-[12px] font-medium tracking-[0.06em] text-earth/85 md:text-[13px]">$ 12.000</span>
+            </div>
+            <p class="mt-2 max-w-md font-baskerville text-[12.5px] leading-[1.7] text-earth/85 md:text-[13.5px]">
+              Tostada rellena con queso, frutas, miel y salsa a elección.
+            </p>
+          </article>
+
+          <article class="menu-row reveal group border-t border-brass/30 py-6 md:py-7">
+            <div class="flex flex-nowrap items-baseline justify-between gap-x-5">
+              <h3 class="menu-title min-w-0 font-cormorant text-[1.35rem] font-semibold uppercase tracking-[0.035em] md:text-[1.55rem]">TORTA VASCA</h3>
+              <span class="menu-price shrink-0 text-right text-[12px] font-medium tracking-[0.06em] text-earth/85 md:text-[13px]">$ 14.000</span>
+            </div>
+            <p class="mt-2 max-w-md font-baskerville text-[12.5px] leading-[1.7] text-earth/85 md:text-[13.5px]">
+              Torta de blend de quesos.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         06 · VISITANOS
+    ============================================================ -->
+    <section id="visitanos" class="relative overflow-hidden border-t border-brass/30 bg-ivory py-24 text-earth md:py-32">
+      <div class="pointer-events-none absolute -right-24 -top-24 h-80 w-80 rounded-full border border-brass/25 md:h-[28rem] md:w-[28rem]" aria-hidden="true"></div>
+
+      <div class="relative mx-auto max-w-6xl px-5 md:px-10">
+
+        <div class="flex items-center gap-4 text-[8px] font-medium uppercase tracking-[0.28em] text-earth/60 md:text-[9px]">
+          <span>06</span>
+          <span class="h-px w-8 bg-brass/40"></span>
+          <span>Visitanos</span>
+          <span class="ml-auto hidden sm:block">Barreal · Calingasta</span>
+        </div>
+
+        <div class="mt-10 grid gap-10 md:grid-cols-12 md:items-end md:mt-14">
+          <div class="reveal md:col-span-8">
+            <h2 class="font-playfair text-[clamp(2.5rem,5.3vw,4.6rem)] font-bold leading-[1.08] tracking-[-0.02em] text-chocolate">
+              El arte de<br>
+              <span class="italic text-earth/80">tomarse un momento</span>
+            </h2>
+            <p class="mt-6 max-w-md font-baskerville text-[12px] leading-[1.8] text-earth/85 md:mt-8 md:text-[13px]">
+              Café hecho en el momento. Sin apuro, sin protocolo: solo el ritual.
+            </p>
+          </div>
+
+          <div class="hidden justify-self-end md:col-span-4 md:flex" aria-hidden="true">
+            <div class="relative h-32 w-32 text-brass">
+              <svg class="spin-slow h-full w-full" viewBox="0 0 120 120" fill="none" aria-hidden="true">
+                <defs>
+                  <path id="seal-path" d="M60,60 m-45,0 a45,45 0 1,1 90,0 a45,45 0 1,1 -90,0"></path>
+                </defs>
+                <text fill="currentColor" font-family="Cormorant Garamond, Georgia, serif" font-size="6.6" font-weight="600" font-style="italic" letter-spacing="1.8">
+                  <textPath href="#seal-path">HUAR · SLOW COFFEE · BARREAL, SAN JUAN ·</textPath>
+                </text>
+              </svg>
+              <span class="absolute inset-0 flex items-center justify-center text-lg">✳</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Galería del espacio -->
+        <div class="mt-12 md:mt-16">
+          <div class="grid grid-cols-2 items-start gap-3 md:grid-cols-4 md:gap-4" data-stagger>
+
+            <figure class="reveal visit-frame group relative border border-brass/25 bg-ivory/50 p-1.5 transition-colors duration-500 hover:border-brass/60">
+              <div class="relative aspect-[2/3] overflow-hidden bg-sand">
+                <img src="imagenes/foto/visitanos-patio.jpg"
+                  alt="Patio de Huar Café con mesas de madera, plantas y sillas al sol"
+                  width="800" height="1548" loading="lazy" decoding="async"
+                  class="visit-photo h-full w-full object-cover" style="object-position: 50% 52%;">
+                <span class="pointer-events-none absolute inset-0 bg-chocolate/5 mix-blend-multiply" aria-hidden="true"></span>
+              </div>
+            </figure>
+
+            <figure class="reveal visit-frame group relative border border-brass/25 bg-ivory/50 p-1.5 transition-colors duration-500 hover:border-brass/60">
+              <div class="relative aspect-[2/3] overflow-hidden bg-sand">
+                <img src="imagenes/foto/visitanos-ventana.jpg"
+                  alt="Taza de café, tetera y carta de Huar junto a la ventana"
+                  width="800" height="1732" loading="lazy" decoding="async"
+                  class="visit-photo h-full w-full object-cover" style="object-position: 50% 62%;">
+                <span class="pointer-events-none absolute inset-0 bg-chocolate/5 mix-blend-multiply" aria-hidden="true"></span>
+              </div>
+            </figure>
+
+            <figure class="reveal visit-frame group relative border border-brass/25 bg-ivory/50 p-1.5 transition-colors duration-500 hover:border-brass/60">
+              <div class="relative aspect-[2/3] overflow-hidden bg-sand">
+                <img src="imagenes/foto/visitanos-mesa.jpg"
+                  alt="Mesa de madera servida con café, flores y luz de tarde"
+                  width="800" height="1000" loading="lazy" decoding="async"
+                  class="visit-photo h-full w-full object-cover" style="object-position: 50% 50%;">
+                <span class="pointer-events-none absolute inset-0 bg-chocolate/5 mix-blend-multiply" aria-hidden="true"></span>
+              </div>
+            </figure>
+
+            <figure class="reveal visit-frame group relative border border-brass/25 bg-ivory/50 p-1.5 transition-colors duration-500 hover:border-brass/60">
+              <div class="relative aspect-[2/3] overflow-hidden bg-sand">
+                <img src="imagenes/foto/visitanos-plato.jpg"
+                  alt="Huevos Huar con pan de masa madre sobre la mesa del café"
+                  width="800" height="1732" loading="lazy" decoding="async"
+                  class="visit-photo h-full w-full object-cover" style="object-position: 50% 62%;">
+                <span class="pointer-events-none absolute inset-0 bg-chocolate/5 mix-blend-multiply" aria-hidden="true"></span>
+              </div>
+            </figure>
+          </div>
+        </div>
+
+        <div class="mt-14 grid gap-8 border-t border-brass/30 pt-8 sm:grid-cols-2 md:mt-20 md:grid-cols-4 md:gap-6 md:pt-10">
+          <div>
+            <h3 class="text-[8px] font-semibold uppercase tracking-[0.26em] text-earth/60">Dirección</h3>
+            <p class="mt-3 font-baskerville text-[12px] leading-[1.8]">
+              Av. Pres. Roca 1798 Sur<br>
+              La Casona de Yolanda, Local N.º 5<br>
+              J5405 Barreal, San Juan
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-[8px] font-semibold uppercase tracking-[0.26em] text-earth/60">Horarios</h3>
+            <p class="mt-3 font-baskerville text-[12px] leading-[1.8]">
+              Miércoles a viernes · 17:00 a 21:00 hs<br>
+              Sábados, domingos y feriados<br>
+              09:00 a 13:00 hs y 16:30 a 22:00 hs
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-[8px] font-semibold uppercase tracking-[0.26em] text-earth/60">Contacto</h3>
+            <p class="mt-3 font-baskerville text-[12px] leading-[1.8]">
+              <a href="https://wa.me/5492645019966" target="_blank" rel="noopener noreferrer" class="underline decoration-brass/50 underline-offset-4 transition-colors hover:text-chocolate">+54 9 264 501-9966</a>
+            </p>
+            <a href="https://share.google/ovuv0O8QkVIcOoIcg" target="_blank" rel="noopener noreferrer"
+              class="group mt-3 inline-flex items-center gap-2 text-[8px] uppercase tracking-[0.22em] text-earth/75 underline decoration-brass/50 underline-offset-4 transition-colors hover:text-chocolate">
+              Ver ficha en Google
+              <span class="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5">↗</span>
+            </a>
+          </div>
+
+          <div class="flex flex-col items-start gap-4">
+            <a href="https://maps.app.goo.gl/dD7L8mMFo3WHFBP7A" target="_blank" rel="noopener noreferrer"
+              class="group inline-flex items-center gap-3 bg-chocolate px-5 py-3 text-[9px] font-medium uppercase tracking-[0.22em] text-ivory transition-colors duration-300 hover:bg-earth">
+              Cómo llegar
+              <span class="transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-0.5">↗</span>
+            </a>
+            <a href="https://wa.me/5492645019966?text=Hola%2C%20quisiera%20reservar%20una%20mesa%20en%20Huar%20Caf%C3%A9." target="_blank" rel="noopener noreferrer" class="text-[8px] uppercase tracking-[0.22em] text-earth/75 underline decoration-brass/50 underline-offset-4 transition-colors hover:text-chocolate">
+              Reservar mesa
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         07 · GIFT CARDS
+    ============================================================ -->
+    <section id="gift-cards" class="gift-section relative overflow-hidden border-t border-brass/40 py-24 text-earth md:py-32">
+      <img src="imagenes/huar-emblem-gold.png" alt="" width="800" height="569" loading="lazy" decoding="async"
+        class="pointer-events-none absolute -right-28 -top-16 w-[22rem] opacity-[0.08] md:-right-16 md:-top-20 md:w-[32rem]" aria-hidden="true">
+
+      <div class="relative z-10 mx-auto max-w-6xl px-5 md:px-10">
+
+        <header class="reveal">
+          <div class="flex items-center gap-4 text-[8px] font-medium uppercase tracking-[0.28em] text-earth/65 md:text-[9px]">
+            <span class="h-px flex-1 bg-brass/40"></span>
+            <span>07 / Gift Cards</span>
+            <span class="h-px flex-1 bg-brass/40"></span>
+          </div>
+
+          <h2 class="mt-8 text-center font-playfair text-[clamp(2.4rem,5.4vw,4.6rem)] font-bold leading-[1.08] tracking-[-0.02em] text-chocolate md:mt-10">
+            Regala <span class="italic">Huar</span>
+          </h2>
+
+          <p class="mx-auto mt-5 max-w-md text-center font-baskerville text-[12px] leading-[1.8] text-earth/85 md:mt-6 md:text-[13px]">
+            Un detalle... Elegí la experiencia y regalá tiempo de café.
+          </p>
+        </header>
+
+        <div class="mt-12 grid gap-9 md:mt-16 md:grid-cols-2 md:gap-8 lg:gap-12" data-stagger>
+
+          <!-- Gift Card · Clásica -->
+          <div class="reveal">
+            <article class="gift-card gift-card--classic" aria-label="Gift Card clásica">
+              <img src="imagenes/huar-emblem-gold.png" alt="" width="800" height="569" loading="lazy" decoding="async"
+                class="pointer-events-none absolute -bottom-10 -right-8 w-32 opacity-[0.12] sm:w-36 lg:w-44" aria-hidden="true">
+
+              <div class="gift-card__content relative z-10 flex flex-col items-center px-4 py-4 text-center sm:px-7 sm:py-6 lg:px-10 lg:py-6">
+
+                <div class="flex items-center justify-center rounded-[1.35rem] bg-ivory p-1.5 ring-1 ring-brass/25 sm:p-2">
+                  <img src="imagenes/logo.jpg" alt="HUAR Logo" width="1254" height="1254" loading="lazy" decoding="async" draggable="false"
+                    class="h-16 w-16 select-none object-contain mix-blend-multiply sm:h-20 sm:w-20">
+                </div>
+
+                <p class="gift-card__title mt-2.5 font-playfair text-[8px] font-bold uppercase leading-none tracking-[0.4em] sm:mt-4 sm:text-[9px] lg:text-[10px]">
+                  Gift Card
+                </p>
+
+                <hr class="mt-3 h-px w-9 border-0 bg-brass sm:mt-5 sm:w-12">
+
+                <div class="gift-fields mt-4 w-full max-w-[245px] text-left sm:mt-6 sm:max-w-[270px] lg:mt-7 lg:max-w-[300px]">
+                  <div class="gift-field">
+                    <span class="gift-field__label">Para:</span>
+                    <span class="gift-field__line"></span>
+                  </div>
+                  <div class="gift-field">
+                    <span class="gift-field__label">Experiencia:</span>
+                    <span class="gift-field__line"></span>
+                  </div>
+                </div>
+
+                <p class="gift-card__message mt-auto pt-4 font-baskerville text-[18px] italic leading-none sm:pt-6 sm:text-[21px] lg:pt-8 lg:text-[23px]">
+                  Un momento para disfrutar
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <!-- Gift Card · Chocolate -->
+          <div class="reveal">
+            <article class="gift-card gift-card--chocolate" aria-label="Gift Card chocolate">
+              <img src="imagenes/huar-emblem-gold.png" alt="" width="800" height="569" loading="lazy" decoding="async"
+                class="pointer-events-none absolute -bottom-10 -right-8 w-32 opacity-[0.11] sm:w-36 lg:w-44" aria-hidden="true">
+
+              <div class="gift-card__content relative z-10 flex flex-col items-center px-4 py-4 text-center sm:px-7 sm:py-6 lg:px-10 lg:py-6">
+
+                <div class="flex items-center justify-center rounded-[1.35rem] bg-ivory p-1.5 ring-1 ring-brass/30 sm:p-2">
+                  <img src="imagenes/logo.jpg" alt="HUAR Logo" width="1254" height="1254" loading="lazy" decoding="async" draggable="false"
+                    class="h-16 w-16 select-none object-contain mix-blend-multiply sm:h-20 sm:w-20">
+                </div>
+
+                <p class="gift-card__title mt-2.5 font-playfair text-[8px] font-bold uppercase leading-none tracking-[0.4em] sm:mt-4 sm:text-[9px] lg:text-[10px]">
+                  Gift Card
+                </p>
+
+                <hr class="mt-3 h-px w-9 border-0 bg-brass sm:mt-5 sm:w-12">
+
+                <div class="gift-fields mt-4 w-full max-w-[245px] text-left sm:mt-6 sm:max-w-[270px] lg:mt-7 lg:max-w-[300px]">
+                  <div class="gift-field">
+                    <span class="gift-field__label">Para:</span>
+                    <span class="gift-field__line"></span>
+                  </div>
+                  <div class="gift-field">
+                    <span class="gift-field__label">Experiencia:</span>
+                    <span class="gift-field__line"></span>
+                  </div>
+                </div>
+
+                <p class="gift-card__message mt-auto pt-4 font-baskerville text-[18px] italic leading-none sm:pt-6 sm:text-[21px] lg:pt-8 lg:text-[23px]">
+                  Un momento para disfrutar
+                </p>
+              </div>
+            </article>
+          </div>
+
+        </div>
+
+        <div id="gift-selector" class="reveal mx-auto mt-12 w-full max-w-2xl md:mt-16" data-whatsapp="5492645019966">
+          <form id="gift-form" class="gift-selector px-5 py-7 sm:px-8 sm:py-9" aria-labelledby="gift-selector-title">
+
+            <p id="gift-selector-title" class="text-center text-[8px] font-semibold uppercase tracking-[0.28em] text-earth/65">
+              Armá tu experiencia
+            </p>
+
+            <fieldset class="mt-7">
+              <legend class="text-[8px] font-semibold uppercase tracking-[0.24em] text-earth/65">
+                Cantidad de personas
+              </legend>
+              <div class="mt-3 grid gap-2 sm:grid-cols-2">
+                <label class="gift-choice">
+                  <input type="radio" name="gift-people" value="una persona" checked>
+                  <span>Experiencia para una persona</span>
+                </label>
+                <label class="gift-choice">
+                  <input type="radio" name="gift-people" value="dos personas">
+                  <span>Experiencia para dos personas</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset class="mt-6">
+              <legend class="text-[8px] font-semibold uppercase tracking-[0.24em] text-earth/65">
+                Tipo de experiencia
+              </legend>
+              <div class="mt-3 grid grid-cols-3 gap-2">
+                <label class="gift-choice">
+                  <input type="radio" name="gift-experience" value="salada">
+                  <span>Opción salada</span>
+                </label>
+                <label class="gift-choice">
+                  <input type="radio" name="gift-experience" value="mixta" checked>
+                  <span>Opción mixta</span>
+                </label>
+                <label class="gift-choice">
+                  <input type="radio" name="gift-experience" value="dulce">
+                  <span>Opción dulce</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <div class="mt-7 flex flex-col items-center gap-4 border-t border-earth/15 pt-6">
+              <p id="gift-summary" class="text-center font-baskerville text-[12px] italic leading-relaxed text-earth/80" aria-live="polite">
+                Experiencia para una persona · Opción mixta
+              </p>
+
+              <a id="gift-whatsapp" href="https://wa.me/5492645019966" target="_blank" rel="noopener noreferrer"
+                class="group inline-flex items-center gap-3 bg-chocolate px-6 py-3.5 text-[9px] font-medium uppercase tracking-[0.24em] text-ivory transition-colors duration-300 hover:bg-earth">
+                Consultar por WhatsApp
+                <span class="transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-0.5">↗</span>
+              </a>
+
+              <p class="text-center font-baskerville text-[12px] leading-relaxed text-earth/80">
+                Sin pago online · Coordinamos la entrega por WhatsApp
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="bg-chocolate text-ivory">
+    <div class="mx-auto max-w-[1440px] px-5 pt-16 md:px-10 md:pt-24">
+
+      <div class="grid gap-12 border-b border-brass/30 pb-14 md:grid-cols-12 md:gap-8 md:pb-20">
+        <div class="md:col-span-7">
+          <p class="text-[8px] font-medium uppercase tracking-[0.3em] text-brass">Huar · Café de especialidad</p>
+          <p class="mt-5 font-playfair text-[clamp(1.9rem,4.2vw,3.6rem)] font-bold uppercase leading-[1.08] tracking-[-0.015em]">
+            Buen café,<br>buenas historias.
+          </p>
+        </div>
+
+        <div class="flex flex-col justify-between gap-8 md:col-span-5 md:items-end">
+          <p class="font-cormorant text-[clamp(1.7rem,3.6vw,2.8rem)] font-semibold italic uppercase leading-[1.15] tracking-[0.01em] text-ivory/70 md:text-right">
+            Un momento<br>fuera de tiempo.
+          </p>
+
+          <a href="#inicio" class="group inline-flex items-center gap-3 text-[8px] uppercase tracking-[0.24em] text-ivory/50 transition-colors hover:text-ivory">
+            Volver arriba
+            <span class="flex h-9 w-9 items-center justify-center rounded-full border border-brass/50 transition-all duration-300 group-hover:border-ivory group-hover:bg-ivory group-hover:text-chocolate">
+              <span class="transition-transform duration-300 group-hover:-translate-y-0.5">↑</span>
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <div class="grid gap-10 py-12 sm:grid-cols-2 md:grid-cols-12 md:gap-8">
+        <div class="md:col-span-4">
+          <p class="text-[8px] font-semibold uppercase tracking-[0.28em] text-brass">Explorar</p>
+          <nav class="mt-4 flex flex-col gap-2.5 text-[11px] font-light tracking-[0.05em] text-ivory/70" aria-label="Navegación del pie de página">
+            <a href="#metodos" class="transition-colors hover:text-ivory">Café de especialidad</a>
+            <a href="#infusiones" class="transition-colors hover:text-ivory">Infusiones</a>
+            <a href="#bebidas" class="transition-colors hover:text-ivory">Bebidas frescas</a>
+            <a href="#origenes" class="transition-colors hover:text-ivory">Nuestros cafés de origen</a>
+            <a href="#comida" class="transition-colors hover:text-ivory">Acompañamientos</a>
+            <a href="#platos" class="transition-colors hover:text-ivory">Platos</a>
+            <a href="#gift-cards" class="transition-colors hover:text-ivory">Gift Cards</a>
+          </nav>
+        </div>
+
+        <div class="md:col-span-4">
+          <p class="text-[8px] font-semibold uppercase tracking-[0.28em] text-brass">Contacto</p>
+          <div class="mt-4 flex flex-col gap-2.5 text-[11px] font-light tracking-[0.05em] text-ivory/70">
+            <a href="https://wa.me/5492645019966" target="_blank" rel="noopener noreferrer" class="transition-colors hover:text-ivory">WhatsApp</a>
+            <a href="https://share.google/ovuv0O8QkVIcOoIcg" target="_blank" rel="noopener noreferrer" class="transition-colors hover:text-ivory">Ficha de Google ↗</a>
+            <p>Av. Pres. Roca 1798 Sur, La Casona de Yolanda, Local N.º 5</p>
+            <p>J5405 Barreal, San Juan, Argentina</p>
+          </div>
+        </div>
+
+        <div class="md:col-span-4">
+          <p class="text-[8px] font-semibold uppercase tracking-[0.28em] text-brass">Seguinos</p>
+          <div class="mt-4 flex flex-col gap-2.5 text-[11px] font-light tracking-[0.05em] text-ivory/70">
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="transition-colors hover:text-ivory">Instagram ↗</a>
+          </div>
+
+          <p class="mt-8 text-[8px] uppercase leading-relaxed tracking-[0.2em] text-ivory/45">
+            Miércoles a viernes · 17:00 a 21:00 hs<br>
+            Sábados, domingos y feriados · 09:00 a 13:00 y 16:30 a 22:00 hs
+          </p>
+        </div>
+      </div>
+
+      <div class="border-t border-brass/25 py-6">
+        <div class="flex flex-col gap-3 text-[8px] uppercase tracking-[0.18em] text-ivory/40 sm:flex-row sm:items-center sm:justify-between">
+          <p>© <span id="year">2026</span> HUAR. Todos los derechos reservados.</p>
+          <p>Hecho con tiempo en Barreal, Calingasta, San Juan.</p>
+        </div>
+
+        <nav class="mt-5 flex flex-wrap items-center gap-x-6 gap-y-1" aria-label="Información legal">
+          <button type="button" data-legal-open="legal-terminos" aria-haspopup="dialog"
+            class="py-2 text-[9px] uppercase tracking-[0.16em] text-ivory/50 underline decoration-brass/40 underline-offset-4 transition-colors duration-300 hover:text-ivory">
+            Términos y condiciones
+          </button>
+          <button type="button" data-legal-open="legal-privacidad" aria-haspopup="dialog"
+            class="py-2 text-[9px] uppercase tracking-[0.16em] text-ivory/50 underline decoration-brass/40 underline-offset-4 transition-colors duration-300 hover:text-ivory">
+            Política de privacidad
+          </button>
+          <button type="button" data-legal-open="legal-gift-cards" aria-haspopup="dialog"
+            class="py-2 text-[9px] uppercase tracking-[0.16em] text-ivory/50 underline decoration-brass/40 underline-offset-4 transition-colors duration-300 hover:text-ivory">
+            Condiciones de Gift Cards
+          </button>
+        </nav>
+      </div>
+    </div>
+
+    <div class="overflow-hidden" aria-hidden="true">
+      <p class="select-none whitespace-nowrap text-center font-playfair text-[27vw] font-bold leading-[0.72] tracking-[-0.02em] text-brass/15">
+        HUAR
+      </p>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       MODALES · INFORMACIÓN LEGAL
+  ============================================================ -->
+
+  <dialog id="legal-terminos" class="legal-dialog" aria-labelledby="legal-terminos-title">
+    <div class="legal-dialog__panel">
+      <header class="relative border-b border-brass/30 bg-ivory px-5 pb-5 pt-7 sm:px-8 sm:pb-6 sm:pt-8">
+        <p class="text-[8px] font-medium uppercase tracking-[0.28em] text-brass">Huar Café · Términos</p>
+        <h2 id="legal-terminos-title" class="mt-2.5 pr-11 font-playfair text-[clamp(1.55rem,4.5vw,2.35rem)] font-bold leading-[1.12] tracking-[-0.015em] text-chocolate">
+          Términos y Condiciones
+        </h2>
+        <button type="button" data-legal-close aria-label="Cerrar términos y condiciones"
+          class="absolute right-4 top-4 inline-flex h-9 w-9 items-center justify-center rounded-full border border-brass/40 text-earth/60 transition-colors duration-300 hover:border-earth hover:text-chocolate sm:right-6 sm:top-6">
+          <svg class="h-3.5 w-3.5" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+            <path d="M1 1l12 12M13 1L1 13" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </header>
+
+      <div class="legal-dialog__body px-5 py-7 sm:px-8 sm:py-8">
+        <p class="font-baskerville text-[13px] italic leading-[1.85] text-earth/85 sm:text-[14px]">
+          Estos términos describen las condiciones de uso del sitio web de Huar Café. Al navegar por el sitio, aceptás utilizarlo de manera responsable y conforme a lo aquí indicado. Si tenés dudas, podés escribirnos por WhatsApp.
+        </p>
+
+        <div class="mt-7 space-y-7">
+          <section>
+            <h3 class="flex items-baseline gap-2.5 text-[8px] font-semibold uppercase tracking-[0.22em] text-earth/55">
+              <span class="font-light text-brass">01</span>
+              <span>Carácter informativo</span>
+            </h3>
+            <p class="mt-2.5 font-baskerville text-[13px] leading-[1.85] text-earth/90">
+              Este sitio tiene como finalidad principal presentar Huar Café, su propuesta de café de especialidad, sus espacios y sus canales de contacto. La información publicada es de carácter informativo y no constituye por sí sola una reserva, un pedido confirmado ni la contratación de un servicio.
+            </p>
+          </section>
+
+          <section>
+            <h3 class="flex items-baseline gap-2.5 text-[8px] font-semibold uppercase tracking-[0.22em] text-earth/55">
+              <span class="font-light text-brass">02</span>
+              <span>Contenidos y propiedad intelectual</span>
+            </h3>
+            <p class="mt-2.5 font-baskerville text-[13px] leading-[1.85] text-earth/90">
+              Los textos, fotografías, logotipos, ilustraciones y demás elementos gráficos de este sitio están protegidos por la normativa de propiedad intelectual. No pueden reproducirse, distribuirse, modificarse ni utilizarse con fines comerciales sin autorización previa y por escrito de Huar Café.
+            </p>
+          </section>
+
+          <section>
+            <h3 class="flex items-baseline gap-2.5 text-[8px] font-semibold uppercase tracking-[0.22em] text-earth/55">
+              <span class="font-light text-brass">03</span>
+              <span>Actualización de la información</span>
+            </h3>
+            <p class="mt-2.5 font-baskerville text-[13px] leading-[1.85] text-earth/90">
+              La información publicada —incluyendo horarios, propuestas, fotografías y disponibilidad— puede actualizarse, modificarse o reemplazarse sin aviso previo. Procuramos que los datos sean correctos y estén vigentes, aunque pueden existir diferencias con la información confirmada en el local o por nuestros canales de contacto.
+            </p>
+          </section>
+
+          <section>
+            <h3 class="flex items-baseline gap-2.5 text-[8px] font-semibold uppercase tracking-[0.22em] text-earth/55">
+              <span class="font-light text-brass">04</span>
+              <span>Uso responsable</span>
+            </h3>
+            <p class="mt-2.5 font-baskerville text-[13px] leading-[1.85] text-earth/90">
+              Te pedimos utilizar el sitio de buena fe y de manera responsable. No está permitido intentar alterar su funcionamiento, acceder a información restringida, interferir con el servicio ni realizar acciones que puedan afectar a otras personas.
+            </p>
+          </section>
+
+          <section>
+            <h3 class="flex items-baseline gap-2.5 text-[8px] font-semibold uppercase tracking-[0.22em] text-earth/55">
+              <span class="font-light text-brass">05</span>
+              <span>Pedidos y consultas</span>
+            </h3>
+            <p class="mt-2.5 font-baskerville text-[13px] leading-[1.85] text-earth/90">
+              Las consultas, reservas y pedidos se realizan a través de los canales de contacto habilitados, especialmente WhatsApp. La confirmación de una reserva o pedido queda sujeta a la respuesta de Huar Café y a la disponibilidad del momento.
+            </p>
+          </section>
+
+          <section>
+            <h3 class="flex items-baseline gap-2.5 text-[8px] font-semibold uppercase tracking-[0.22em] text-earth/55">
+              <span class="font-light text-brass">06</span>
+              <span>Cambios en estos términos</span>
+            </h3>
+            <p class="mt-2.5 font-baskerville text-[13px] leading-[1.85] text-earth/90">
+              Estos términos pueden actualizarse para reflejar cambios en el sitio, en los canales de contacto o en la forma de gestionar las consultas. La versión publicada en esta página es la vigente.
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-between gap-4 border-t border-brass/25 px-5 py-4 sm:px-8">
+        <p class="text-[8px] uppercase tracking-[0.18em] text-earth/40">Última actualización · noviembre de 2026</p>
+        <button type="button" data-legal-close
+          class="text-[8px] uppercase tracking-[0.22em] text-earth/60 underline decoration-brass/50 underline-offset-4 transition-colors duration-300 hover:text-chocolate">
+          Cerrar
+        </button>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="legal-gift-cards" class="legal-dialog" aria-labelledby="legal-gift-cards-title">
+    <div class="legal-dialog__panel">
+      <header class="relative border-b border-brass/30 bg-ivory px-5 pb-5 pt-7 sm:px-8 sm:pb-6 sm:pt-8">
+        <p class="text-[8px] font-medium uppercase tracking-[0.28em] text-brass">Huar Café · Gift Cards</p>
+        <h2 id="legal-gift-cards-title" class="mt-2.5 pr-11 font-playfair text-[clamp(1.55rem,4.5vw,2.35rem)] font-bold leading-[1.12] tracking-[-0.015em] text-chocolate">
+          Condiciones de las Gift Cards
+        </h2>
+        <button type="button" data-legal-close aria-label="Cerrar condiciones de las Gift Cards"
+          class="absolute right-4 top-4 inline-flex h-9 w-9 items-center justify-center rounded-full border border-brass/40 text-earth/60 transition-colors duration-300 hover:border-earth hover:text-chocolate sm:right-6 sm:top-6">
+          <svg class="h-3.5 w-3.5" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+            <path d="M1 1l12 12M13 1L1 13" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </header>
+
+      <div class="legal-dialog__body px-5 py-7 sm:px-8 sm:py-8">
+        <p class="font-baskerville text-[13px] italic leading-[1.85] text-earth/85 sm:text-[14px]">
+          Las Gift Cards de Huar Café son un regalo pensado para disfrutar una experiencia en el café. Antes de solicitar o utilizar una, te pedimos leer estas condiciones.
+        </p>
+
+        <div class="mt-7 space-y-7">
+          <section>
+            <h3 class="flex items-baseline gap-2.5 text-[8px] font-semibold uppercase tracking-[0.22em] text-earth/55">
+              <span class="font-light text-brass">01</span>
+              <span>Condiciones de uso</span>
+            </h3>
+            <ul class="legal-list mt-3.5 font-baskerville text-[13px] leading-[1.8] text-earth/90">
+              <li>Están destinadas a una o dos personas.</li>
+              <li>Tienen una vigencia máxima de 3 meses desde su emisión o fecha de activación.</li>
+              <li>Para utilizarlas es obligatorio realizar una reserva previa.</li>
+              <li>La reserva debe coordinarse directamente con Huar Café mediante WhatsApp.</li>
+              <li>La disponibilidad está sujeta a los días y horarios del establecimiento.</li>
+              <li>La Gift Card debe presentarse al momento de utilizar el beneficio.</li>
+              <li>Una vez vencido el plazo de 3 meses, la Gift Card pierde su validez.</li>
+              <li>La solicitud y coordinación de las Gift Cards se realizan por WhatsApp.</li>
+              <li>La Gift Card no debe considerarse una reserva automática.</li>
+            </ul>
+          </section>
+
+          <div class="border border-brass/40 bg-sand/25 px-4 py-4 sm:px-5">
+            <p class="text-[8px] font-semibold uppercase tracking-[0.24em] text-earth/60">Importante</p>
+            <p class="mt-2 font-baskerville text-[13px] leading-[1.8] text-earth/90">
+              Es necesario confirmar previamente la fecha y el horario con el establecimiento. Sin esa confirmación, la Gift Card no reserva un lugar.
+            </p>
+          </div>
+
+          <section>
+            <h3 class="flex items-baseline gap-2.5 text-[8px] font-semibold uppercase tracking-[0.22em] text-earth/55">
+              <span class="font-light text-brass">02</span>
+              <span>Solicitudes y coordinación</span>
+            </h3>
+            <p class="mt-2.5 font-baskerville text-[13px] leading-[1.85] text-earth/90">
+              Para solicitar una Gift Card o coordinar su uso, escribinos por WhatsApp. La solicitud queda sujeta a la disponibilidad del establecimiento y a la confirmación de Huar Café. Al momento de usar el beneficio, presentá tu Gift Card.
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-between gap-4 border-t border-brass/25 px-5 py-4 sm:px-8">
+        <p class="text-[8px] uppercase tracking-[0.18em] text-earth/40">Última actualización · noviembre de 2026</p>
+        <button type="button" data-legal-close
+          class="text-[8px] uppercase tracking-[0.22em] text-earth/60 underline decoration-brass/50 underline-offset-4 transition-colors duration-300 hover:text-chocolate">
+          Cerrar
+        </button>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="legal-privacidad" class="legal-dialog" aria-labelledby="legal-privacidad-title">
+    <div class="legal-dialog__panel">
+      <header class="relative border-b border-brass/30 bg-ivory px-5 pb-5 pt-7 sm:px-8 sm:pb-6 sm:pt-8">
+        <p class="text-[8px] font-medium uppercase tracking-[0.28em] text-brass">Huar Café · Privacidad</p>
+        <h2 id="legal-privacidad-title" class="mt-2.5 pr-11 font-playfair text-[clamp(1.55rem,4.5vw,2.35rem)] font-bold leading-[1.12] tracking-[-0.015em] text-chocolate">
+          Política de Privacidad
+        </h2>
+        <button type="button" data-legal-close aria-label="Cerrar política de privacidad"
+          class="absolute right-4 top-4 inline-flex h-9 w-9 items-center justify-center rounded-full border border-brass/40 text-earth/60 transition-colors duration-300 hover:border-earth hover:text-chocolate sm:right-6 sm:top-6">
+          <svg class="h-3.5 w-3.5" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+            <path d="M1 1l12 12M13 1L1 13" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </header>
+
+      <div class="legal-dialog__body px-5 py-7 sm:px-8 sm:py-8">
+        <p class="font-baskerville text-[13px] italic leading-[1.85] text-earth/85 sm:text-[14px]">
+          En Huar Café cuidamos la información que compartís con nosotros. Esta política explica, de forma simple, qué datos podemos recibir y cómo los utilizamos.
+        </p>
+
+        <div class="mt-7 space-y-7">
+          <section>
+            <h3 class="flex items-baseline gap-2.5 text-[8px] font-semibold uppercase tracking-[0.22em] text-earth/55">
+              <span class="font-light text-brass">01</span>
+              <span>Información que compartís voluntariamente</span>
+            </h3>
+            <p class="mt-2.5 font-baskerville text-[13px] leading-[1.85] text-earth/90">
+              Al comunicarte con nosotros por WhatsApp u otros canales de contacto habilitados, podés proporcionar voluntariamente tu nombre, número de teléfono y los detalles de tu consulta, reserva o solicitud de Gift Card. También podés compartir otra información que consideres necesaria para coordinar el servicio.
+            </p>
+          </section>
+
+          <section>
+            <h3 class="flex items-baseline gap-2.5 text-[8px] font-semibold uppercase tracking-[0.22em] text-earth/55">
+              <span class="font-light text-brass">02</span>
+              <span>Consultas y Gift Cards por WhatsApp</span>
+            </h3>
+            <p class="mt-2.5 font-baskerville text-[13px] leading-[1.85] text-earth/90">
+              Las consultas y solicitudes de Gift Cards se gestionan principalmente por WhatsApp. El uso de esa aplicación se rige también por sus propias políticas de privacidad, sobre las cuales Huar Café no tiene control.
+            </p>
+          </section>
+
+          <section>
+            <h3 class="flex items-baseline gap-2.5 text-[8px] font-semibold uppercase tracking-[0.22em] text-earth/55">
+              <span class="font-light text-brass">03</span>
+              <span>Uso de la información</span>
+            </h3>
+            <p class="mt-2.5 font-baskerville text-[13px] leading-[1.85] text-earth/90">
+              Los datos que compartís se utilizan para responder tu consulta, coordinar reservas, gestionar solicitudes de Gift Cards y mantener la comunicación necesaria para brindarte el servicio. No los utilizamos para fines distintos de los que motivaron tu contacto.
+            </p>
+          </section>
+
+          <section>
+            <h3 class="flex items-baseline gap-2.5 text-[8px] font-semibold uppercase tracking-[0.22em] text-earth/55">
+              <span class="font-light text-brass">04</span>
+              <span>Datos innecesarios</span>
+            </h3>
+            <p class="mt-2.5 font-baskerville text-[13px] leading-[1.85] text-earth/90">
+              No solicitamos datos personales que no sean necesarios para atender tu consulta. Te pedimos compartir solo la información relevante para la gestión que estás realizando.
+            </p>
+          </section>
+
+          <section>
+            <h3 class="flex items-baseline gap-2.5 text-[8px] font-semibold uppercase tracking-[0.22em] text-earth/55">
+              <span class="font-light text-brass">05</span>
+              <span>Comunicación con terceros</span>
+            </h3>
+            <p class="mt-2.5 font-baskerville text-[13px] leading-[1.85] text-earth/90">
+              No compartimos tus datos con terceros sin un fundamento legal o sin tu autorización cuando corresponda. Podrán ser comunicados únicamente cuando sea necesario para cumplir con una obligación legal o para gestionar el servicio que solicitaste.
+            </p>
+          </section>
+
+          <section>
+            <h3 class="flex items-baseline gap-2.5 text-[8px] font-semibold uppercase tracking-[0.22em] text-earth/55">
+              <span class="font-light text-brass">06</span>
+              <span>Conservación y control de tus datos</span>
+            </h3>
+            <p class="mt-2.5 font-baskerville text-[13px] leading-[1.85] text-earth/90">
+              Conservamos la información solo durante el tiempo necesario para gestionar tu consulta o cumplir con obligaciones legales. Podés solicitar la corrección o eliminación de los datos que nos compartiste escribiéndonos por WhatsApp.
+            </p>
+          </section>
+
+          <section>
+            <h3 class="flex items-baseline gap-2.5 text-[8px] font-semibold uppercase tracking-[0.22em] text-earth/55">
+              <span class="font-light text-brass">07</span>
+              <span>Navegación</span>
+            </h3>
+            <p class="mt-2.5 font-baskerville text-[13px] leading-[1.85] text-earth/90">
+              Para navegar por el sitio no necesitás registrarte ni ingresar datos personales. Las consultas y solicitudes se realizan por los canales de contacto habilitados.
+            </p>
+          </section>
+
+          <section>
+            <h3 class="flex items-baseline gap-2.5 text-[8px] font-semibold uppercase tracking-[0.22em] text-earth/55">
+              <span class="font-light text-brass">08</span>
+              <span>Cambios en esta política</span>
+            </h3>
+            <p class="mt-2.5 font-baskerville text-[13px] leading-[1.85] text-earth/90">
+              Esta política puede actualizarse si cambian los canales de contacto o la forma en que gestionamos las consultas. La versión publicada en esta página es la vigente.
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-between gap-4 border-t border-brass/25 px-5 py-4 sm:px-8">
+        <p class="text-[8px] uppercase tracking-[0.18em] text-earth/40">Última actualización · noviembre de 2026</p>
+        <button type="button" data-legal-close
+          class="text-[8px] uppercase tracking-[0.22em] text-earth/60 underline decoration-brass/50 underline-offset-4 transition-colors duration-300 hover:text-chocolate">
+          Cerrar
+        </button>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- ============================================================
+       JAVASCRIPT
+  ============================================================ -->
+  <script src="js/main.js"></script>
+</body>
+</html>
